@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .profile-img {
+      width: 150px; /* Adjust image size */
+      height: 150px; /* Adjust image size */
+      border-radius: 50%; /* Make it circular */
+      object-fit: cover; /* Maintain aspect ratio */
+    }
+    .profile-info {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .profile-info a {
+      color: #0077b5; /* LinkedIn color */
+      text-decoration: none;
+    }
+    .profile-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    
+    <!-- Personal Information -->
+    <section class="profile-info">
+      <img src="Profile.jpg" alt="Your Profile Picture" class="profile-img">
+      <h2>Patience Eboma</h2>
+      <p>Email: <a href="mailto:ibitokunpatience05@gmail.com">ibitokunpatience05@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/patience-eboma-ab993b176" target="_blank">Patience Eboma</a></p>
+      <p>GitHub: <a href="https://github.com/patty05307" target="_blank">patty05307</a></p>
+      <p>I am a web developer, passionate about creating innovative solutions to problems.</p>
+    </section>
+
+    <!-- Contact Form -->
+    <h3>Send Us a Message</h3>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your Email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div id="error-message"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 My Blog</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
